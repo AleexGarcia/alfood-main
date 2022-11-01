@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { IPaginacao } from '../../interfaces/IPaginacao';
 import IRestaurante from '../../interfaces/IRestaurante';
 import style from './ListaRestaurantes.module.scss';
 import Restaurante from './Restaurante';
@@ -39,7 +40,6 @@ const ListaRestaurantes = () => {
       ver mais
     </button>}
   </section>)
-
 }
 
 export default ListaRestaurantes
